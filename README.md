@@ -58,7 +58,7 @@ Box plots of mechanical properties (compression, moment, shear, etc.) per cluste
 | `beam_embeddings_mp.csv` | Learned GNN embeddings (one row per merged beam) |
 | `beam_clusters_mp_gmm_k{K}.csv` | Cluster assignments + soft probabilities (one row per source beam) |
 
-## Requirements
+## Dependencies
 
 ```
 torch, torch_geometric, scikit-learn, pandas, numpy, plotly, matplotlib
